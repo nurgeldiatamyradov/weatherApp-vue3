@@ -1,11 +1,12 @@
 <template>
-  
+  <div>
+    <AsyncCityView />
+  </div>
 </template>
 
-<script>
-export default {
+<script setup>
+import AsyncCityView from '../components/AsyncCityView.vue';
 
-}
 </script>
 
 <style>
